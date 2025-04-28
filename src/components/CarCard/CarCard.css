@@ -1,0 +1,42 @@
+.car-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    transition: transform 0.3s;
+  }
+  
+  .car-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .car-card img {
+    width: 40;
+    height: 40x;
+   
+  }
+  
+  .car-details {
+    padding: 15px;
+  }
+  
+  .car-details h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .car-specs,
+  .car-features {
+    margin-top: 10px;
+  }
+  
+  .favorite-btn {
+    margin-top: 10px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
